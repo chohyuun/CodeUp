@@ -2,9 +2,9 @@
 
 int main(void)
 {
-	int i, j;
+	long long int i, j;
 
-	scanf("%d %d", &i, &j);
-	printf("%d", i + j);
+	scanf("%lld %lld", &i, &j);
+	printf("%lld", i + j);
 	return (0);
 }
