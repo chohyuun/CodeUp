@@ -5,8 +5,8 @@ int main(void)
 {
 	char* str;
 
-	str = (char*)malloc(sizeof(char) * 51);
-	scanf("%s", str);
+	str = (char*)malloc(sizeof(char) * 2001);
+	fgets(str, 2000, stdin); //scan include space
 	printf("%s", str);
 	free(str);
 	return (0);
